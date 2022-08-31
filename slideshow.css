@@ -1,0 +1,40 @@
+*{
+    background-color: darkolivegreen;
+}
+
+h1{
+    font-size: 5vh;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.main{
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    background-image: url(Hitman\ Contracts.jpg);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-size: 100% 100%;
+    box-shadow: white 1px 2px 10px 5px;
+    animation: slider 15s infinite linear;
+}
+
+@keyframes slider{
+    0%{ background-image: url(Hitman\ Contracts.jpg); }
+
+    15%{ background-image: url(Hitman\ Contracts1.jpg); }
+    
+    30%{ background-image: url(Hitman\ Contracts2.jpg); }
+    
+    45%{ background-image: url(Hitman\ Contracts3.jpg); }
+    
+    60%{ background-image: url(Hitman\ Contracts4.jpg); }
+    
+    85%{ background-image: url(Hitman\ Contracts5.jpg); }
+    
+}
